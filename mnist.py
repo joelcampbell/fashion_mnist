@@ -20,3 +20,8 @@ print(len(train_labels))
 print(train_labels)
 print(test_images.shape)
 print(len(test_labels))
+
+plt.figure()
+plt.imshow(train_images[0])
+plt.colorbar()
+plt.grid(False)
